@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #32211d;
+  color: #f7f4e3;
+}
+a {
+  text-decoration: none;
+  color: #f7f4e3;
+}
+
+.container {
+  max-width: 1128px;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.header__link {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.header__link:hover {
+  text-decoration: underline;
+}
+.btn {
+  cursor: pointer;
+  display: block;
+  width: fit-content;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 8px 24px;
+  border: 2px solid #f7f4e3;
+  transition: all 0.3s;
+}
+.btn:hover {
+  color: #32211d;
+  background-color: #f7f4e3;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 128px;
+  gap: 84px;
+}
+.welcome__block {
+}
+.welcome__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 123px;
+  text-align: right;
+  padding-bottom: 92px;
+}
+.welcome__desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+.welcome__img {
+}
+
+.index-about {
+  display: flex;
+  padding-bottom: 64px;
+  justify-content: space-between;
+}
+.index-about__block {
+  max-width: 550px;
+}
+.index-about__name {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  padding-bottom: 20px;
+}
+.index-about__desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 59px;
+}
+.index-about__btn {
+  float: right;
+}
+.btn {
+}
+
+.index-character {
+  padding-bottom: 120px;
+}
+.index-charachter__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.index-charachter__list {
+  display: flex;
+  justify-content: space-between;
+}
+.index-character__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.index-charachter__name {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer__link {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+.btn {
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.book {
+  padding-top: 10px;
+  padding-bottom: 64px;
+}
+.book__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 123px;
+}
+.book__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.book__img {
+}
+.book__desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 500px;
+}
+
+.charachter {
+}
+.charachter__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 55px;
+}
+.charachter__list {
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+}
+.charachter__item {
+  display: flex;
+  gap: 24px;
+}
+.charachter__img {
+}
+.charachter__name {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #fff;
+  padding-bottom: 22px;
+}
+.charachter__desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 56px;
+}
+.author__name {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 123px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 62px;
+}
+
+.bio {
+}
+.bio__item {
+  padding-bottom: 86px;
+}
+.bio__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.bio__desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.trailer {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.trailer__video {
+  width: 100%;
+}
+.trailer__video > video {
+  width: 100%;
+}
+.trailer__title {
+  padding-top: 27px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
